@@ -1,0 +1,14 @@
+a{
+    color: black;
+    text-decoration: none; /*decoración texto, por ejmplo: subrayado*/
+    font-size: 2em; /*Tamaño (em: su tamaño)*/
+}
+a:hover{ /*a:hover links cuando pasamos el ratón por encima*/
+    color: yellow;
+    background-color: navy; /*Fondo (background)*/
+    font-size: 3em;
+    font-weight: bold; /*Grosor de la letra*/
+}
+a:visited{ /*Cuando un link es visitado*/
+    color: red;
+}

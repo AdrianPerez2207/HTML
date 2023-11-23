@@ -1,0 +1,30 @@
+#div1{
+    height: 300px; /*Altura*/
+    width: 300px; /*Anchura*/
+    margin: 40px; /*Distancia junto con el Padre (Separado)(borde)*/
+    padding: 30px; /*Distania con los "hijos"*/
+    background-color: red; /*Color del fondo*/
+    position: relative; /*Posición relativa con respecto a sí mismo*/
+    left: 200px; /*Distania que se separa de la izquierda (se mueve a la derecha)*/
+    top: 100px; /*Distancia que se separa de arriba*/
+}
+#div2{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    right: 50px;
+    bottom: 50px; /*Distancia que se separa de abajo*/
+}
+#div3{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: aqua;
+    position: relative;
+    left: 450px;
+    bottom: 300px;
+}
