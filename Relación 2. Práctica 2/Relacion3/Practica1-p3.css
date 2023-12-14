@@ -1,0 +1,47 @@
+#Naranja{
+    background-color: orange;
+    width: 150px;
+    height: 450px;
+    position: relative;
+    left: 37%;
+    bottom: 10px;
+}
+#Gris{
+    background-color: gray;
+    width: 150px;
+    height: 300px;
+    position: relative;
+    left: 45%;
+    bottom: 475px;
+}
+#Azul{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 45%;
+    bottom: 475px;
+}
+#Amarillo{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 53.1%;
+    bottom: 925px;
+}
+#Rosa{
+    background-color: pink;
+    width: 150px;
+    height: 300px;
+    position: relative;
+    left: 53.1%;
+    bottom: 925px;
+}
+body{
+    background-color: black;
+    overflow: hidden; /*Scroll*/
+}
+#padre{
+    padding-top: 10%;
+}
