@@ -1,0 +1,14 @@
+#pagina{
+    border: 1px solid #ccc;
+    background-color: blanchedalmond;
+    padding: 5em;
+}
+#izquierda{
+    float: left;
+}
+#derecha{
+    float: right;
+}
+#clear{
+    clear: both;
+}
