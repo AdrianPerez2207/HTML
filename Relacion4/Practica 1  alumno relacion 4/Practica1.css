@@ -1,0 +1,48 @@
+body{
+    background-color: #F3F2ED;
+    font-family: arial,sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/fondo.jpg);
+
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 250px;
+}
+nav{
+    background-color: #ab2a3e;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+}
+#extra{
+    background-color: #f5f5dc;
+}
+#extra a{
+    text-decoration: underline;
+    color: blue;
+}
+#extra a:hover{
+    color: red;
+}
+footer{
+    background-color: #ab2a3e;
+    color: white;
+    text-align: center;
+    height: 2em;
+}
