@@ -2,6 +2,7 @@ body{
     background-color: #F3F2ED;
     font-family: arial,sans-serif;
 }
+/*Header-------------------*/
 header{
     display: flex;
     flex-direction: column;
@@ -27,8 +28,37 @@ a:visited{
 a{
     text-decoration: none;
 }
+/*---------------------------*/
 main{
     display: flex;
+}
+/*Sección contenido-----------------*/
+figure img{
+    float: right;
+}
+#primero{
+    color: #ab2a3e;
+    text-decoration-line: underline;
+}
+/*------------------------*/
+/*Sección "extra"-------------------*/
+#final{
+    background-color: #ab2a3e;
+}
+#final2{
+    color: white;
+}
+#figure1{
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+#figure2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 65px;
+    left: 56%;
 }
 #extra{
     background-color: #f5f5dc;
@@ -40,6 +70,7 @@ main{
 #extra a:hover{
     color: red;
 }
+/*-------------------------------------*/
 footer{
     background-color: #ab2a3e;
     color: white;
