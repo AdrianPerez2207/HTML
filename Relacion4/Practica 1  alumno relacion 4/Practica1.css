@@ -18,6 +18,11 @@ header{
 }
 nav{
     background-color: #ab2a3e;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    bottom: 10px;
+    justify-content: center;
 }
 a:link{
     color: white;
@@ -57,8 +62,8 @@ figure img{
     position: relative;
     width: 300px;
     height: 200px;
-    top: 62px;
-    left: 44%;
+    top: 44px;
+    left: 46%;
 }
 #extra{
     background-color: #f5f5dc;
