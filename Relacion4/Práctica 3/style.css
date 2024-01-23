@@ -1,0 +1,64 @@
+body{
+    background: white;
+    text-decoration: #333333;
+    font-style: Trebuchet MS Verdana Arial Helvetica Sans-serif;
+    font-size: 12px;
+}
+h1 a{
+    color:  #B7211F;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: black;
+}
+#home{
+    background:  #C00;
+}
+#home li{
+    display: inline;
+}
+#home li a{
+    text-decoration: none;
+    color: #FFF;
+}
+#home li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+h2 a{
+    font-size: 24px;
+    text-decoration: none;
+    color:  #B7271F;
+}
+h2 a:hover{
+    color: #666;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#derecha{
+    background: #FFDDDD;
+    border: 1px solid;
+    color:  #990000;
+    float: right;
+}
+#derecha h2{
+    font-size: 14px;
+}
+#derecha li{
+    border-bottom: 1px solid #ddd;
+}
+#derecha li a{
+    text-decoration: none;
+    color:  #666;
+}
+#derecha li a:hover{
+    color:  #C00;
+    font-weight: bolder;
+}
+#enlace{
+    text-decoration: none;
+    color: #CB392C;
+}
+#izquierda{
+    text-align: justify;
+}
