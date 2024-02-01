@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PracticaFormulario.css">
+    <title>Formulario HTML5</title>
+</head>
+
+<body>
+    <header>
+        <h1>Recogida de datos</h1>
+    </header>
+    <form method="get" action="" id="form1">
+        <fieldset id="caja1">
+            <legend id="legend1">Datos personales</legend>
+            <label for="nombre">Nombre
+                <input type="text" name="nombre" id="nombre" required autofocus>
+            </label>
+            <label for="apellido1">Apellido 1
+                <input type="text" name="apellido1" id="apellido1" required>
+            </label>
+            <label for="apellido2">Apellido 2
+                <input type="text" name="apellido2" id="apellido2" required>
+            </label>
+            <label for="telefono">Telefono
+                <input type="tel" name="telefono" id="telefono">
+            </label>
+            <label for="correo">Correo electrónico
+                <input type="email" name="correo" id="correo" required>
+            </label>
+            <label for="url">URL
+                <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web favorita">
+            </label>
+            <label for="tu localidad">Tu localidad
+                <select name="localidad" id="localidad">
+                    <option value="cuevas">Cuevas</option>
+                    <option value="vera">Vera</option>
+                    <option value="garrucha">Garrucha</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset id="caja1">
+            <legend>Datos del pedido</legend>
+            <label for="fecha_y_hora">Fecha y hora</label>
+            <input type="datetime-local" name="fecha_y_hora" id="fechaHora">
+            <label for="numero">Número</label>
+            <input type="number" min="-1" max="10" name="numero" id="numero">
+            <label for="colorPedido">Color pedido</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos entrega</legend>
+            <label for="fechaEntrega">Fecha de entrega</label>
+            <input type="date" name="fechaEntrega" id="fechaEntrega">
+            <label for="horaEntrega">Hora de entrega</label>
+            <input type="time" name="horaEntrega" id="horaEntrega">
+            <label for="documentacion">Documentación presentada:
+                <label for="factura">
+                    <input type="checkbox" name="factura" id="factura">
+                    Factura</label>
+                <label for="certificado">
+                    <input type="checkbox" name="certificado" id="certificado">
+                    Certificado</label>
+            </label>
+            <label for="recogida">Recogida:
+                <label for="tienda">
+                    <input type="radio" name="recogida" id="tienda">
+                    Tienda</label>
+                <label for="casa">
+                    <input type="radio" name="recogida" id="casa">
+                    Casa</label>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Más información</legend>
+            <label for="buscar">Busca aquí
+                <input type="search" name="buscar" id="buscar" placeholder="Introduce el término de búsqueda">
+                <input type="button" value="Buscar">
+            </label>
+            <label for="comentarios">Comentarios adicionales
+                <textarea name="comentarios" id="comentarios" cols="60" rows="5"
+                    placeholder="Escribe comentarios adicionales"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>

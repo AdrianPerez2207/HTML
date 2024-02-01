@@ -1,0 +1,27 @@
+body {
+    background-image: url(./back.jpg);
+}
+
+header {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 23%;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+    width: 50%;
+}
+
+fieldset {
+    padding: 3%;
+}
+
+#caja1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
