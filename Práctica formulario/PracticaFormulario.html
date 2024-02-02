@@ -13,27 +13,27 @@
         <h1>Recogida de datos</h1>
     </header>
     <form method="get" action="" id="form1">
-        <fieldset id="caja1">
-            <legend id="legend1">Datos personales</legend>
-            <label for="nombre">Nombre
+        <fieldset class="caja1">
+            <legend id="legend1">A. Datos personales</legend>
+            <label for="nombre">1. Nombre
                 <input type="text" name="nombre" id="nombre" required autofocus>
             </label>
-            <label for="apellido1">Apellido 1
+            <label for="apellido1">2. Apellido 1
                 <input type="text" name="apellido1" id="apellido1" required>
             </label>
-            <label for="apellido2">Apellido 2
+            <label for="apellido2">3. Apellido 2
                 <input type="text" name="apellido2" id="apellido2" required>
             </label>
-            <label for="telefono">Telefono
+            <label for="telefono">4. Telefono
                 <input type="tel" name="telefono" id="telefono">
             </label>
-            <label for="correo">Correo electrónico
+            <label for="correo">5. Correo electrónico
                 <input type="email" name="correo" id="correo" required>
             </label>
-            <label for="url">URL
+            <label for="url">6. URL
                 <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web favorita">
             </label>
-            <label for="tu localidad">Tu localidad
+            <label for="tu localidad">7. Tu localidad
                 <select name="localidad" id="localidad">
                     <option value="cuevas">Cuevas</option>
                     <option value="vera">Vera</option>
@@ -42,23 +42,30 @@
             </label>
         </fieldset>
 
-        <fieldset id="caja1">
-            <legend>Datos del pedido</legend>
-            <label for="fecha_y_hora">Fecha y hora</label>
-            <input type="datetime-local" name="fecha_y_hora" id="fechaHora">
-            <label for="numero">Número</label>
-            <input type="number" min="-1" max="10" name="numero" id="numero">
-            <label for="colorPedido">Color pedido</label>
-            <input type="color" name="color" id="color">
+        <fieldset class="caja1">
+            <legend>B. Datos del pedido</legend>
+            <label for="fecha_y_hora">8. Fecha y hora
+                <input type="datetime-local" name="fecha_y_hora" id="fechaHora">
+            </label>
+            <label for="numero">9. Número
+                <input type="number" min="-1" max="10" name="numero" id="numero">
+            </label>
+            <label for="colorPedido">10. Color pedido
+                <input type="color" name="color" id="color">
+            </label>
         </fieldset>
 
-        <fieldset>
-            <legend>Datos entrega</legend>
-            <label for="fechaEntrega">Fecha de entrega</label>
-            <input type="date" name="fechaEntrega" id="fechaEntrega">
-            <label for="horaEntrega">Hora de entrega</label>
-            <input type="time" name="horaEntrega" id="horaEntrega">
-            <label for="documentacion">Documentación presentada:
+        <fieldset id="caja3">
+            <legend>C. Datos entrega</legend>
+            <section id="horaFecha">
+                <label for="fechaEntrega">11. Fecha de entrega
+                    <input type="date" name="fechaEntrega" id="fechaEntrega">
+                </label>
+                <label for="horaEntrega">12. Hora de entrega
+                    <input type="time" name="horaEntrega" id="horaEntrega">
+                </label>
+            </section>
+            <label for="documentacion">13. Documentación presentada:
                 <label for="factura">
                     <input type="checkbox" name="factura" id="factura">
                     Factura</label>
@@ -66,7 +73,7 @@
                     <input type="checkbox" name="certificado" id="certificado">
                     Certificado</label>
             </label>
-            <label for="recogida">Recogida:
+            <label for="recogida">14. Recogida:
                 <label for="tienda">
                     <input type="radio" name="recogida" id="tienda">
                     Tienda</label>
@@ -76,18 +83,20 @@
             </label>
         </fieldset>
 
-        <fieldset>
-            <legend>Más información</legend>
-            <label for="buscar">Busca aquí
+        <fieldset id="caja4">
+            <legend>D. Más información</legend>
+            <label for="buscar">15. Busca aquí
                 <input type="search" name="buscar" id="buscar" placeholder="Introduce el término de búsqueda">
                 <input type="button" value="Buscar">
             </label>
-            <label for="comentarios">Comentarios adicionales
+            <label id="comentarios" for="comentarios">16. Comentarios adicionales
                 <textarea name="comentarios" id="comentarios" cols="60" rows="5"
                     placeholder="Escribe comentarios adicionales"></textarea>
             </label>
         </fieldset>
-        <input type="submit" value="Enviar">
+        <footer>
+            <input type="submit" value="Enviar">
+        </footer>
     </form>
 
 </body>
