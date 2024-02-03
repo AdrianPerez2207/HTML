@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Práctica formulario Adrián Pérez Sánchez.</title>
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="normalize.css">
+
+
+</head>
+
+<body>
+	<header>
+		<h1>HOJA DE INSCRIPCIÓN DE LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+	</header>
+	<form action="">
+		<fieldset>
+			<legend>
+				Datos personales(*)
+			</legend>
+			<label for="apellidos">Apellidos:
+				<input type="text" name="apellidos" id="apellidos">
+			</label>
+			<label for="nombre">Nombre:
+				<input type="text" name="nombre" id="nombre">
+			</label>
+			<label for="dni">DNI:
+				<input type="text" name="dni" id="dni">
+			</label>
+			<label for="domicilio">Domicilio(Calla, plaza, número):
+				<input type="text" name="domicilio" id="domicilio">
+			</label>
+			<label for="provincia">Provincia:
+				<select name="provincia" id="provincia">
+					<option value="almeria">Almeria</option>
+					<option value="granada">Granada</option>
+					<option value="malaga">Málaga</option>
+					<option value="sevilla">Sevilla</option>
+					<option value="cordoba">Córdoba</option>
+					<option value="jaen">Jaén</option>
+					<option value="huelva">Huelva</option>
+					<option value="cadiz">Cádiz</option>
+				</select>
+			</label>
+			<label for="localidad">Localidad:
+				<input type="text" name="localidad" id="localidad">
+			</label>
+			<label for="email">Email:
+				<input type="email" name="email" id="email">
+			</label>
+			<label for="fechaNacimiento">Fecha Nac.
+				<input type="date" name="fechaNacimiento" id="fechaNacimiento">
+			</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>
+				Requisitos de acceso
+			</legend>
+			<label for="directo">
+				<input type="radio" name="directo" id="directo">
+				Directo
+				<label for="bachillerato">
+					<input type="radio" name="bachillerato" id="bachillerato">
+					Bachillerato LOGSE. Modalidad:
+					<input type="text" name="bachillerato" id="bachillerato">
+				</label>
+				<label for="gradoMedio">
+					<input type="radio" name="bachillerato" id="gradoMedio">
+					Grado medio
+				</label>
+				<label for="otros">
+					<input type="radio" name="bachillerato" id=" otros">
+					Otros especifique:
+				</label>
+			</label>
+			<label for="prueba">
+				<input type="radio" name="directo" id="prueba">
+				Mediante prueba
+			</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>
+				Solicitud
+			</legend>
+			<label for="cicloFormativo">Ciclo Formativo
+				<select name="cicloFormativo" id="cicloFormativo">
+					<optgroup>
+						<option value="selecciona" selected>-Selecciona-</option>
+						<option value="DAM">CFGS Desarrollo Aplicaciones Multiplataforma</option>
+						<option value="DAW">CFGS Desarrollo Aplicaciones Web</option>
+						<option value="prevencion">CFGS Prevención Riesgos Profesionales</option>
+					</optgroup>
+				</select>
+			</label>
+			En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:
+			<label for="ciclos">Ciclos formativos:
+				<input type="text" name="ciclos" id="ciclos">
+				<input type="text" name="ciclos" id="ciclos">
+			</label>
+			<label for="centros">Centros:
+				<input type="text" name="centros" id="centros">
+				<input type="text" name="centros" id="centros">
+			</label>
+			<label for="localidad">Localidad:
+				<input type="text" name="localidad" id="localidad">
+				<input type="text" name="localidad" id="localidad">
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Documentación presentada
+			</legend>
+			<label for="fotocopiaDNI">
+				<input type="checkbox" name="fotocopiaDNI" id="fotocopiaDNI">
+				Fotocopia DNI
+			</label>
+			<label for="certificado">
+				<input type="checkbox" name="certificado" id="certificado">
+				Certificado Académico
+			</label>
+			<label for="documentos">
+				<input type="checkbox" name="documentos" id="documentos">
+				Otros documentos (especifique):
+				<input type="text" name="documentos" id="documentos">
+			</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>
+				Comunicación
+			</legend>
+
+			De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
+			Administraciones
+			Públicas y del procedimientos Administrativo Común, según la nueva redacción de la ley 4/1999, de 13 de
+			enero,se
+			informa que:
+			<ul>
+				<li>Elplazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que se haya
+					tenido
+					entrada en
+					el
+					registro del órgano
+					competente para la tramitación, sin perjuicio de lo previsto en el artículo 42.5 de la misma ley.
+				</li>
+				<li>El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya dictado y
+					notificado
+					la
+					resolución
+					correspondiente, es desestimatorio de la solicitud.
+				</li>
+			</ul>
+			<label for="fecha">
+				<input type="text" name="fecha" id="fecha">,
+				<input type="text" name="fecha" id="fecha">de
+				<input type="text" name="fecha" id="fecha">de
+				<select name="fechaGrupo" id="fechaGrupo">
+					<optgroup>
+						<option value="2019" selected>-2019-</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+					</optgroup>
+				</select>
+			</label>
+
+			La persona solicitante,
+			<strong>Firma</strong>
+			<textarea name="firmaElectronica" id="firmaElectronica" cols="15" rows="10"
+				placeholder="Coloca aquí tu firma electrónica visible"></textarea>
+			<input type="submit" value="Enviar">
+		</fieldset>
+	</form>
+
+	<section>
+		(*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento por la
+		Consejeria de educación, en el uso
+		de las funciones propias que tiene atribuídas en el ámbito de sus competencias, pudiendo dirigirse a cualquier
+		órgano de la misma para ejercitar los derechos de acceso, rectificación,
+		cancelación y oposición, según lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos
+		."
+	</section>
+	<footer>
+		DIRECTOR/A O TITULAR DEL CENTRO
+	</footer>
+
+
+
+
+</body>
+
+</html>
