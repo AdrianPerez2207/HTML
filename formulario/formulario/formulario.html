@@ -15,7 +15,7 @@
 		<h1>HOJA DE INSCRIPCIÓN DE LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
 	</header>
 	<form action="">
-		<fieldset>
+		<fieldset id="caja1">
 			<legend>
 				Datos personales(*)
 			</legend>
@@ -54,25 +54,26 @@
 			</label>
 		</fieldset>
 
-		<fieldset>
+		<fieldset id="caja2">
 			<legend>
 				Requisitos de acceso
 			</legend>
-			<label for="directo">
-				<input type="radio" name="directo" id="directo">
+			<label for="directo" id="directo1">
+				<input type="radio" name="bachillerato id=" directo">
 				Directo
-				<label for="bachillerato">
-					<input type="radio" name="bachillerato" id="bachillerato">
+				<label for="directo">
+					<input type="radio" name="bachillerato id=" bachillerato">
 					Bachillerato LOGSE. Modalidad:
-					<input type="text" name="bachillerato" id="bachillerato">
+					<input type="text" name="bachillerato id=" bachillerato">
 				</label>
-				<label for="gradoMedio">
-					<input type="radio" name="bachillerato" id="gradoMedio">
+				<label for="directo">
+					<input type="radio" name="bachillerato id=" gradoMedio">
 					Grado medio
 				</label>
 				<label for="otros">
-					<input type="radio" name="bachillerato" id=" otros">
+					<input type="radio" namebachillerato id=" otros">
 					Otros especifique:
+					<input type="text" name="otros" id="otros">
 				</label>
 			</label>
 			<label for="prueba">
@@ -81,8 +82,8 @@
 			</label>
 		</fieldset>
 
-		<fieldset>
-			<legend>
+		<fieldset id="caja3">
+			<legend id="l3">
 				Solicitud
 			</legend>
 			<label for="cicloFormativo">Ciclo Formativo
@@ -96,28 +97,30 @@
 				</select>
 			</label>
 			En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:
-			<label for="ciclos">Ciclos formativos:
-				<input type="text" name="ciclos" id="ciclos">
-				<input type="text" name="ciclos" id="ciclos">
-			</label>
-			<label for="centros">Centros:
-				<input type="text" name="centros" id="centros">
-				<input type="text" name="centros" id="centros">
-			</label>
-			<label for="localidad">Localidad:
-				<input type="text" name="localidad" id="localidad">
-				<input type="text" name="localidad" id="localidad">
-			</label>
+			<section id="cajaSeleccionable">
+				<label for="ciclos" id="ciclos">Ciclos formativos:
+					<input type="text" name="ciclos" id="cf">
+					<input type="text" name="ciclos" id="cf">
+				</label>
+				<label for="centros" id="centros">Centros:
+					<input type="text" name="centros" id="cc">
+					<input type="text" name="centros" id="cc">
+				</label>
+				<label for="localidad" id="localidad">Localidad:
+					<input type="text" name="localidad" id="lc">
+					<input type="text" name="localidad" id="lc">
+				</label>
+			</section>
 		</fieldset>
-		<fieldset>
-			<legend>
+		<fieldset id="caja4">
+			<legend id="l4">
 				Documentación presentada
 			</legend>
 			<label for="fotocopiaDNI">
 				<input type="checkbox" name="fotocopiaDNI" id="fotocopiaDNI">
 				Fotocopia DNI
 			</label>
-			<label for="certificado">
+			<label for="certificado" id="certificado">
 				<input type="checkbox" name="certificado" id="certificado">
 				Certificado Académico
 			</label>
@@ -128,8 +131,8 @@
 			</label>
 		</fieldset>
 
-		<fieldset>
-			<legend>
+		<fieldset id="caja5">
+			<legend id="l5">
 				Comunicación
 			</legend>
 
@@ -171,11 +174,11 @@
 			<strong>Firma</strong>
 			<textarea name="firmaElectronica" id="firmaElectronica" cols="15" rows="10"
 				placeholder="Coloca aquí tu firma electrónica visible"></textarea>
-			<input type="submit" value="Enviar">
+			<input type="submit" value="Enviar" id="boton">
 		</fieldset>
 	</form>
 
-	<section>
+	<section id="seccion">
 		(*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento por la
 		Consejeria de educación, en el uso
 		de las funciones propias que tiene atribuídas en el ámbito de sus competencias, pudiendo dirigirse a cualquier
@@ -184,7 +187,7 @@
 		."
 	</section>
 	<footer>
-		DIRECTOR/A O TITULAR DEL CENTRO
+		<strong>DIRECTOR/A O TITULAR DEL CENTRO</strong>
 	</footer>
 
 
