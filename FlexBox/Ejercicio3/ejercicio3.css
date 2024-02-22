@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+li {
+    background-color: rgba(123, 198, 199, 0.8);
+    text-align: center;
+    width: 20vw;
+    height: 15vw;
+}

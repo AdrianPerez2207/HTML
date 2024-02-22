@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+}
+
+li {
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    background-color: rgba(123, 198, 199, 0.8);
+    list-style: none;
+    padding: 2%;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}

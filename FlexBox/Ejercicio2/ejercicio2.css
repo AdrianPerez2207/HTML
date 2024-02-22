@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    width: max-content;
+    gap: 3px;
+}
+
+li {
+    background-color: rgba(123, 198, 199, 0.8);
+    font-size: 1.2em;
+    width: 7vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
