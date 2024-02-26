@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+
+
+}
+
+#section1{
+    background-color: rgba(123, 198, 199, 0.8);
+    padding: 12px 24px;
+    width: 40vw;
+    height: 100vw;
+}
+
+#section2{
+    background-color: rgba(193, 219, 210, 1.00);
+    padding: 12px 24px;
+    width: 60vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+    border-bottom: 1px solid;
+    padding: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
