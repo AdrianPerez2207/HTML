@@ -1,22 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 main{
     display: flex;
     flex-direction: row;
     gap: 2px;
-
-
+    height: 100vh;
+    font-size: 1.3em;
 }
 
 #section1{
     background-color: rgba(123, 198, 199, 0.8);
-    padding: 12px 24px;
-    width: 40vw;
-    height: 100vw;
+    padding: 12px 50px;
+    flex: 1;
 }
 
 #section2{
     background-color: rgba(193, 219, 210, 1.00);
     padding: 12px 24px;
-    width: 60vw;
+    flex: 4;
+    
 }
 
 ul{
