@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrián Instrumentos/Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="/WEB-ADRIAN/header/footer.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="/WEB-ADRIAN/index.html" id="logo"><img src="./img/Logo cabecera.png" width="300" height="100"
+                    alt="logo">
+                <strong>ADRIAN INSTRUMENTOS</strong></a>
+        </div>
+        <ul>
+            <li><a href="/WEB-ADRIAN/index.html"><strong>HOME</strong></a></li>
+            <li><a href="#"><strong>VIENTO MADERA</strong></a></li>
+            <li><a href="#"><strong>VIENTO METAL</strong></a></li>
+            <li><a href="#"><strong>PERCUSION</strong></a></li>
+            <li><a href="#"><strong>PIANO Y TELCADO</strong></a></li>
+            <li><a href="#"><strong>ATRILES Y ACCESORIOS</strong></a></li>
+        </ul>
+    </header>
+    <form action="">
+        <fieldset id="registro">
+            <h3>REGISTRO</h3>
+            <section>
+                <label for="nombre"><strong>Nombre:</strong>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </label>
+                <label for="apellidos"><strong>Apellidos:</strong>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+                </label>
+                <label for="usuario"><strong>Nombre de usuario:</strong>
+                    <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                </label>
+                <label for="correo"><strong>Correo electrónico:</strong>
+                    <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                </label>
+                <label for="direccion"><strong>Dirección:</strong>
+                    <input type="text" name="direccion" id="direccion" placeholder="Dirección">
+                </label>
+                <label for="localidad"><strong>Localidad:</strong>
+                    <input type="text" name="localidad" id="localidad" placeholder="Localidad">
+                </label>
+                <label for="provincia"><strong>Provincia:</strong>
+                    <select name="provincia" id="provincia">
+                        <option value="almeria">Almeria</option>
+                        <option value="granada">Granada</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="jaen">Jaén</option>
+                        <option value="huelva">Huelva</option>
+                        <option value="cadiz">Cádiz</option>
+                    </select>
+                </label>
+                <label for="telefono"><strong>Teléfono:</strong>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+                </label>
+                <label for="correo"><strong>Contraseña:</strong>
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+                </label>
+                <label for="repetir"><strong>Repetir contraseña:</strong>
+                    <input type="password" name="repetir" id="repetir" placeholder="Repetir contraseña">
+                </label>
+            </section>
+        </fieldset>
+        <input type="submit" value="Registrarse" id="boton">
+    </form>
+
+    <footer>
+        <p>Página elaborada por <strong>Adrián Pérez Sánchez </strong></p>
+    </footer>
+
+</body>
+
+</html>

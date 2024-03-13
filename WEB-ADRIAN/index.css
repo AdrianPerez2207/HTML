@@ -1,0 +1,66 @@
+main {
+    width: 100%;
+    min-height: 75%;
+    background-color: #E1E2D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+}
+
+#div1 {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 5px;
+    column-gap: 20%;
+}
+
+#div1 section {
+    box-shadow: 3px 3px 5px #585956;
+}
+
+section {
+    width: fit-content;
+}
+
+section a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section a:hover {
+    scale: 1.1;
+    box-shadow: 3px 3px 5px #585956;
+}
+
+section a:hover p {
+    background-color: #90B947;
+}
+
+section p {
+    width: 200px;
+    background-color: #585956;
+    text-align: center;
+}
+
+#fantasma {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 20%;
+}
+
+#fantasma a:hover p {
+    background-color: #AB49CC;
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15%;
+    background-color: #b5b5b5;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+#logo a {
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2%;
+    margin-right: 2%;
+}
+
+header li {
+    list-style: none;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    color: whitesmoke;
+}
+
+#logo a {
+    transition-duration: 300ms;
+}
+
+#logo a:hover {
+    scale: 1.1;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 75%;
+    background-color: #E1E2D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    font-size: 1.1em;
+    background-color: #585956;
+    color: white;
+}
+
+#div1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+#div1 section {
+    border: 1px solid;
+    box-shadow: 3px 3px 5px #585956;
+}
+
+#div1 section a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#div1 section a:hover {
+    background-color: #90B947;
+    font-size: 1.3em;
+}
+
+#div2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+#div2 section {
+    border: 1px solid;
+    box-shadow: 3px 3px 5px #585956;
+}
+
+#div2 section a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#div2 section a:hover {
+    background-color: #AB49CC;
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 1.5em;
+}
