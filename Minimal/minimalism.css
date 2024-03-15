@@ -19,17 +19,20 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1%;
 }
 
 ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     flex: 1;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    gap: 50px;
 }
 
 li {
@@ -68,4 +71,5 @@ li {
 
 #sect2 h2 {
     font-size: 3;
+    margin-top: 1%;
 }
