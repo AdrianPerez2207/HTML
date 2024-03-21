@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F58220;
+    text-decoration: #333333;
+    font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+
+#principal {
+    width: 70%;
+    min-height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+}
+
+header section {
+    margin-left: 1%;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #F58220;
+    font-size: 2em;
+}
+
+header h1 a:hover {
+    color: #cccccc;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3%;
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 1.2em;
+}
+
+header ul li {
+    margin-left: 2%;
+}
+
+header ul a:hover {
+    color: white;
+}
+
+main {
+    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1%;
+}
+
+main #texto {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 7%;
+    flex: 4;
+    text-align: justify;
+}
+
+#texto p {
+    margin-top: 4%;
+}
+
+#texto p a {
+    text-decoration: none;
+    color: #F58220;
+}
+
+#texto h2 a {
+    color: #4174b4;
+    text-decoration: none;
+}
+
+#texto h2 a:hover {
+    color: #111111;
+}
+
+#enlace {
+    margin-top: 3%;
+}
+
+
+#navCuerpo {
+    margin-right: 2%;
+    flex: 1;
+}
+
+#navCuerpo h2 {
+    background-color: #3A454C;
+    color: #cccccc;
+}
+
+#navCuerpo ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: #657983;
+    min-height: 30%;
+}
+
+#navCuerpo li {
+    list-style: square;
+    margin-left: 8%;
+    padding: 1%;
+}
+
+#navCuerpo a {
+    color: white;
+    text-decoration: none;
+}
+
+#navCuerpo a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    flex: 3;
+    background-color: #657983;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
